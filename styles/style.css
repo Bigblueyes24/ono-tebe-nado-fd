@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -169,6 +169,9 @@ ul {
 .lots_list__item {
   height: 596px;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .lots_article__link {
@@ -208,12 +211,6 @@ ul {
   background: url(/images/card-lot-03.jpg);
 }
 
-.lots_list__item {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .article_heading {
   font-size: 22px;
   font-weight: 700;
@@ -251,11 +248,6 @@ ul {
   padding-bottom: 180px;
 }
 
-.logo_white {
-  width: 148px;
-  height: 114px;
-}
-
 .black_circle_about {
   background-color: #000;
   width: 240px;
@@ -270,6 +262,8 @@ ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 148px;
+  height: 114px;
 }
 
 .about_text {
